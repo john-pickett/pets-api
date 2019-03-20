@@ -9,7 +9,7 @@ const Cat = db.models.Cat;
 
 const app = express();
 const port = 3000;
-const seedData = require('db/seedDB')
+const seedData = require('./db/seedDB');
 
 app.use(bodyParser.json());
 
