@@ -37,4 +37,5 @@ const createDataInDB = async () => {
 
 }
 
+
 module.exports = { createDataInDB };
