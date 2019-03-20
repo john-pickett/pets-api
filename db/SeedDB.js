@@ -1,5 +1,4 @@
 const db = require('./db');
-const sequelize = db.sequelize;
 
 const Dog = db.models.Dog;
 const Cat = db.models.Cat;
@@ -36,6 +35,5 @@ const createDataInDB = async () => {
 
 
 }
-
 
 module.exports = { createDataInDB };
